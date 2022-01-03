@@ -1,7 +1,7 @@
 package layers;
 
 public interface LogicLayer {
-	void processData(dataObject obj);
+	void processingData(dataObject obj);
 	dataObject getProcessedData();
-
+	dataObject processData(dataObject obj);
 }
