@@ -6,6 +6,11 @@ public class LayeredArchitectureDemo {
 		// TODO Auto-generated method stub
 		System.out.println("Layered Architecture Demo");
 
+		dataObject dataobject = new dataObject(1, "initial data");
+		
+		
+		
+		System.out.println("value of data object string = " + dataobject.getString() );
 	}
 
 }
